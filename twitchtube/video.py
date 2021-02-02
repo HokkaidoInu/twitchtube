@@ -1,7 +1,7 @@
 import os
 
-from twitchtube.logging import Log
-from twitchtube.config import *
+from .logging import Log
+from .config import *
 
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
